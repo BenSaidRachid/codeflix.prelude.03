@@ -34,7 +34,7 @@ describe(':: triangle', () => {
 
     it('impossible triangle', () => {
       let wrapper = function() {
-        triangle(0, 0, 0)
+        triangle(7, 3, 2)
       }
       assert.throws(wrapper, '7, 3, 2 is not a triangle')
     });
