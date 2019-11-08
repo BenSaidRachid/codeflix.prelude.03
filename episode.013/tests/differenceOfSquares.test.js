@@ -6,6 +6,6 @@ describe(':: differenceOfSquares', () => {
     expect(differenceOfSquares(10)).equal(2640)
   })
   it('1 to 15', () => {
-    expect(differenceOfSquares(15)).equal(13100)
+    expect(differenceOfSquares(15)).equal(13160)
   })
 })
